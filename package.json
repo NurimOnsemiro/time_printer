@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pkg-win": "tsc && pkg ./ -t node14-win-x64 --output ./build/time_printer.exe",
+    "start": "ts-node ./src/app.ts"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
   "dependencies": {
     "moment": "^2.29.1",
     "path": "^0.12.7"
+  },
+  "bin": {
+    "app": "./dist/src/app.js"
   }
 }
