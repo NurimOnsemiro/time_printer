@@ -1,0 +1,27 @@
+{
+  "name": "time_printer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NurimOnsemiro/time_printer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NurimOnsemiro/time_printer/issues"
+  },
+  "homepage": "https://github.com/NurimOnsemiro/time_printer#readme",
+  "devDependencies": {
+    "@types/moment": "^2.13.0",
+    "@types/node": "^14.14.6"
+  },
+  "dependencies": {
+    "moment": "^2.29.1",
+    "path": "^0.12.7"
+  }
+}
